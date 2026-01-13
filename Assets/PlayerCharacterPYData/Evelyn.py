@@ -1,0 +1,97 @@
+"""
+Evelyn Character Hash Commands
+ZZZ Mod Fixer v2.5
+Auto-generated from zzz-mod-fixer_2.5a_WIP.py
+"""
+
+def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
+                      remove_section, remove_indexed_sections, capture_section,
+                      create_new_section, transfer_indexed_sections,
+                      multiply_section_if_missing, add_ib_check_if_missing,
+                      add_section_if_missing, zzz_13_remap_texcoord,
+                      zzz_12_shrink_texcoord_color, update_buffer_blend_indices,
+                      **kwargs):
+    """
+    Returns Evelyn's hash commands dictionary.
+    
+    All command classes are passed as parameters to avoid circular imports.
+    """
+    return {
+'10a5bde2': [(log, ('2.5: Evelyn Hair IB Hash',)),      (add_ib_check_if_missing,)],
+'04b53ecd': [(log, ('2.5: Evelyn Body IB Hash',)),      (add_ib_check_if_missing,)],
+'bb6d1023': [(log, ('2.5: Evelyn Jacket IB Hash',)),    (add_ib_check_if_missing,)],
+'b3eaedb0': [(log, ('2.5: Evelyn Shoulders IB Hash',)), (add_ib_check_if_missing,)],
+'ddf4efa6': [(log, ('2.5: Evelyn Face IB Hash',)),      (add_ib_check_if_missing,)],
+'8e1d1a6f': [
+        (log,                           ('2.5: Evelyn FaceA Diffuse 2048p Hash',)),
+        (add_section_if_missing,        ('ddf4efa6', 'Evelyn.Face.IB', 'match_priority = 0\n')),
+        (multiply_section_if_missing,   ('bc090438', 'Evelyn.FaceA.Diffuse.1024')),
+    ],
+'bc090438': [
+        (log,                           ('2.5: Evelyn FaceA Diffuse 1024p Hash',)),
+        (add_section_if_missing,        ('ddf4efa6', 'Evelyn.Face.IB', 'match_priority = 0\n')),
+        (multiply_section_if_missing,   ('8e1d1a6f', 'Evelyn.FaceA.Diffuse.2048')),
+    ],
+'ebac056e': [
+        (log,                           ('2.5: Evelyn Shared NormalMap Hash (Hair, Jacket, Body, Shoulder)',)),
+        (add_section_if_missing,        ('10a5bde2', 'Evelyn.Hair.IB', 'match_priority = 0\n')),
+        (add_section_if_missing,        ('bb6d1023', 'Evelyn.Jacket.IB', 'match_priority = 0\n')),
+        (add_section_if_missing,        ('04b53ecd', 'Evelyn.Body.IB', 'match_priority = 0\n')),
+        (add_section_if_missing,        ('b3eaedb0', 'Evelyn.Shoulders.IB', 'match_priority = 0\n')),
+    ],
+'0e5c3c97': [
+        (log,                           ('2.5: Evelyn Hair, Jacket Diffuse 2048p Hash',)),
+        (multiply_section_if_missing,   ('65a7592d', 'Evelyn.Hair.Diffuse.1024')),
+    ],
+'e1434e0d': [
+        (log,                           ('2.5: Evelyn Hair, Jacket LightMap 2048p Hash',)),
+        (multiply_section_if_missing,   ('eb414a98', 'Evelyn.Hair.LightMap.1024')),
+    ],
+'b2718585': [
+        (log,                           ('2.5: Evelyn Hair, Jacket MaterialMap 2048p Hash',)),
+        (multiply_section_if_missing,   ('e680f0c7', 'Evelyn.Hair.MaterialMap.1024')),
+    ],
+'65a7592d': [
+        (log,                           ('2.5: Evelyn Hair, Jacket Diffuse 1024p Hash',)),
+        (multiply_section_if_missing,   ('0e5c3c97', 'Evelyn.Hair.Diffuse.2048')),
+    ],
+'eb414a98': [
+        (log,                           ('2.5: Evelyn Hair, Jacket LightMap 1024p Hash',)),
+        (multiply_section_if_missing,   ('e1434e0d', 'Evelyn.Hair.LightMap.2048')),
+    ],
+'e680f0c7': [
+        (log,                           ('2.5: Evelyn Hair, Jacket MaterialMap 1024p Hash',)),
+        (multiply_section_if_missing,   ('b2718585', 'Evelyn.Hair.MaterialMap.2048')),
+    ],
+'a59b14c0': [
+        (log,                           ('2.5: Evelyn Body, Shoulder Diffuse 2048p Hash',)),
+        (multiply_section_if_missing,   ('93033898', 'Evelyn.Body.Diffuse.1024')),
+    ],
+'d022d32c': [
+        (log,                           ('2.5: Evelyn Body, Shoulder LightMap 2048p Hash',)),
+        (multiply_section_if_missing,   ('16aab2ab', 'Evelyn.Body.LightMap.1024')),
+    ],
+'8624e4e4': [
+        (log,                           ('2.5: Evelyn Body, Shoulder MaterialMap 2048p Hash',)),
+        (multiply_section_if_missing,   ('716561f0', 'Evelyn.Body.MaterialMap.1024')),
+    ],
+'93033898': [
+        (log,                           ('2.5: Evelyn Body, Shoulder Diffuse 1024p Hash',)),
+        (multiply_section_if_missing,   ('a59b14c0', 'Evelyn.Body.Diffuse.2048')),
+    ],
+'16aab2ab': [
+        (log,                           ('2.5: Evelyn Body, Shoulder LightMap 1024p Hash',)),
+        (multiply_section_if_missing,   ('d022d32c', 'Evelyn.Body.LightMap.2048')),
+    ],
+'716561f0': [
+        (log,                           ('2.5: Evelyn Body, Shoulder MaterialMap 1024p Hash',)),
+        (multiply_section_if_missing,   ('8624e4e4', 'Evelyn.Body.MaterialMap.2048')),
+    ]
+    }
+
+
+# Character metadata
+CHARACTER_INFO = {
+    'name': 'Evelyn',
+    'game_versions': ['1.0', '1.1', '1.2', '1.3', '1.4', '1.5', '1.6', '1.7', '2.5'],
+}
