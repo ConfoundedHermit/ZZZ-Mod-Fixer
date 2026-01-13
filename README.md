@@ -119,7 +119,7 @@ ZZZ-Mod-Fixer/
 The tool includes fix data for all playable characters through version 2.5, including:
 - Launch characters (Anby, Billy, Nicole, Corin, etc.)
 - Limited characters (Ellen, Zhu Yuan, Jane Doe, Miyabi, etc.)
-- Alternate skins and forms (Ellen Campus, Soldier 11, etc.)
+- Alternate skins and forms (Ellen Campus, Soldier 0, etc.)
 - Upcoming characters with known hash data
 
 ## Backup and Recovery
