@@ -74,7 +74,7 @@ character_modules = [
 ]
 
 a = Analysis(
-    ['zzz-mod-fixer_2.5a_WIP.py'],
+    ['zzz-mod-fixer.py'],
     pathex=[],
     binaries=[],
     datas=[
