@@ -205,7 +205,6 @@ To add support for new characters or game versions:
 ## Credits
 
 - Originally written by **petrascyll**
-- Thanks to **Leotorrez**, **CaveRabbit**, and **SilentNightSound** for their help
 - 1.6 updates by **HammyCatte**
 - 1.7 updates by **shaojiang**
 
