@@ -1067,10 +1067,10 @@ def load_character_modules():
     # Determine the base path (handles both script and PyInstaller executable)
     if getattr(sys, 'frozen', False):
         # Running as compiled executable
-        base_path = Path(sys._MEIPASS)
+        base_path = Path(sys._MEIPASS) / 'Assets'
     else:
         # Running as script
-        base_path = Path(__file__).parent.parent / 'Assets'
+        base_path = Path(__file__).parent / 'Assets'
     
     character_data_path = base_path / 'PlayerCharacterPYData'
     
