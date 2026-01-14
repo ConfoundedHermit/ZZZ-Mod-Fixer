@@ -73,6 +73,7 @@ CHARACTERS = [
     'YixuanTrailsOfInk',
     'Yuzuha',
     'YuzuhaSummer',
+    'Zhao',
     'ZhuYuan',
 ]
 

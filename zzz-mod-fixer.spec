@@ -74,6 +74,7 @@ character_modules = [
     'PlayerCharacterPYData.YixuanTrailsOfInk',
     'PlayerCharacterPYData.Yuzuha',
     'PlayerCharacterPYData.YuzuhaSummer',
+    'PlayerCharacterPYData.Zhao',
     'PlayerCharacterPYData.ZhuYuan',
 ]
 
