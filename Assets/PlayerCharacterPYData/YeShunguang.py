@@ -1,7 +1,6 @@
 """
 YeShunguang Character Hash Commands
 ZZZ Mod Fixer v2.5
-Auto-generated from zzz-mod-fixer_2.5a_WIP.py
 """
 
 def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
@@ -32,6 +31,9 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '38b3bd13': [(log, ('2.5: YeShunguang BraidStrips IB Hash',)),  (add_ib_check_if_missing,)],
 '9258d5f8': [(log, ('2.5: YeShunguang Bow IB Hash',)),          (add_ib_check_if_missing,)],
 '611df76d': [(log, ('2.5: YeShunguang Brows IB Hash',)),        (add_ib_check_if_missing,)],
+
+# === VB Hashes ===
+'d1ffd339': [(log, ('2.5: YeShunguang TexCoord VB Hash',)),     (update_hash, ('dbb027eb',))],
 
 # === Shared NormalMap ===
 'ebac056e': [
