@@ -21,6 +21,46 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '3cacba0a': [(log, ('1.1: Qingyi Hair IB Hash',)), (add_ib_check_if_missing,)],
 '195857d8': [(log, ('1.1: Qingyi Body IB Hash',)), (add_ib_check_if_missing,)],
 '8e8426df': [(log, ('2.5: Qingyi Bottle IB Hash',)), (add_ib_check_if_missing,)],
+'d915de65': [
+        (log, ('1 -> 1.1: Qingyi Body IB Hash',)),
+        (update_hash, ('195857d8',)),
+    ],
+'0287b8fb': [
+        (log, ('1 -> 1.1: Qingyi Body Blend Hash',)),
+        (update_hash, ('88a6f633',)),
+    ],
+'dd421c3a': [
+        (log, ('1 -> 1.1: Qingyi Body Position Hash',)),
+        (update_hash, ('ac54012f',)),
+    ],
+'00487185': [
+        (log, ('1 -> 1.1: Qingyi Body Texcoord Hash',)),
+        (update_hash, ('4cbe7fbe',)),
+    ],
+'b1f382cd': [
+        (log, ('1 -> 1.1: Qingyi Body Draw Hash',)),
+        (update_hash, ('7be61bce',)),
+    ],
+'33f6d1f2': [
+        (log, ('2 -> 1.1: Qingyi Hair IB Hash',)),
+        (update_hash, ('3cacba0a',)),
+    ],
+'d196bd5c': [
+        (log, ('2 -> 1.1: Qingyi Hair Blend Hash',)),
+        (update_hash, ('6e7650bc',)),
+    ],
+'b6e5374d': [
+        (log, ('2 -> 1.1: Qingyi Hair Position Hash',)),
+        (update_hash, ('dd08951b',)),
+    ],
+'dae0117f': [
+        (log, ('2 -> 1.1: Qingyi Hair Texcoord Hash',)),
+        (update_hash, ('0643440c',)),
+    ],
+'6a52010a': [
+        (log, ('2 -> 1.1: Qingyi Hair Draw Hash',)),
+        (update_hash, ('7b43d317',)),
+    ],
 '0b75cd32': [
         (log,                           ('1.1: Qingyi HeadA Diffuse 2048p Hash',)),
         (add_section_if_missing,        ('f6e96452', 'Qingyi.Head.IB', 'match_priority = 0\n')),

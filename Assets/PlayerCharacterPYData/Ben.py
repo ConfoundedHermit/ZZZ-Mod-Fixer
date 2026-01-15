@@ -57,6 +57,15 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     ],
 
 # ===== BODY TEXTURES =====
+# Body Blend - v1.0 hash updated to v2.5
+'a2f79d33': [
+        (log,                           ('1.0: Ben Body Blend Hash (OLD)',)),
+        (update_hash,                   ('21dd67a7',)),
+    ],
+'21dd67a7': [
+        (log,                           ('2.5: Ben Body Blend Hash',)),
+    ],
+
 # Body Diffuse - unchanged between versions
 '0313ed95': [
         (log,                           ('2.5: Ben BodyA Diffuse Hash',)),

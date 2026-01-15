@@ -23,6 +23,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '9c7fac5a': [(log, ('1.0 -> 1.1: Ellen Head IB Hash',)),       (update_hash, ('f6ef8f3a',))],
 '7f89a2b3': [(log, ('1.0 -> 1.1: Ellen Hair IB Hash',)),       (update_hash, ('d44a8015',))],
 'a72cfb34': [(log, ('1.0 -> 1.1: Ellen Body IB Hash',)),       (update_hash, ('e30fae03',))],
+'4f4a54f0': [(log, ('1.0 -> 1.1: Ellen Body Blend Hash',)),    (update_hash, ('89589539',))],
 '83dfd744': [(log, ('1.0 -> 1.1: Ellen Head Texcoord Hash',)), (update_hash, ('8744badf',))],
 'd59a5fec': [(log, ('1.0 -> 1.1: Ellen Hair Draw Hash',)),     (update_hash, ('77ac5f85',))],
 'a5448398': [(log, ('1.0 -> 1.1: Ellen Hair Position Hash',)), (update_hash, ('ba0fe600',))],
@@ -38,6 +39,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
         (log, ('+ Remapping texcoord buffer from stride 36 to 24',)),
         (zzz_12_shrink_texcoord_color, ('1.2',))
     ],
+'2f9df031': [(log, ('1.2 -> 1.3: Ellen Hair Blend Hash',)),    (update_hash, ('52188576',))],
 '52188576': [
         (log,                         ('1.3 -> 1.4: Ellen Hair Blend Remap',)),
         (update_buffer_blend_indices, (

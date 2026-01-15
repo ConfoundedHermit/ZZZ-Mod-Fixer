@@ -18,7 +18,14 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     """
     return {
 # === Hair Component ===
-'6324de38': [(log, ('2.5: Harumasa Hair IB Hash',)), (add_ib_check_if_missing,)],
+'f51a89c1': [(log, ('1.4 -> 1.5: Harumasa Hair IB Hash',)), (update_hash, ('6324de38',))],
+'6324de38': [(log, ('1.5 -> 2.5: Harumasa Hair IB Hash',)), (add_ib_check_if_missing,)],
+
+# Hair Buffer Hashes
+'fa851c10': [(log, ('1.4 -> 1.5: Harumasa Hair Draw Hash',)),     (update_hash, ('9f75c05c',))],
+'f5727f53': [(log, ('1.4 -> 1.5: Harumasa Hair Position Hash',)), (update_hash, ('eddb9012',))],
+'52787e7d': [(log, ('1.4 -> 1.5: Harumasa Hair Blend Hash',)),    (update_hash, ('2644c499',))],
+'9879fba3': [(log, ('1.4 -> 1.5: Harumasa Hair Texcoord Hash',)), (update_hash, ('4f45a9c5',))],
 
 # Hair Textures
 'b8f268ee': [

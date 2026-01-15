@@ -17,6 +17,13 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     All command classes are passed as parameters to avoid circular imports.
     """
     return {
+# Hash Updates (Old -> New)
+'0219df6e': [(log, ('1.0 -> 2.5: Yixuan Bottle IB Hash',)),           (update_hash, ('1630f2d0',))],
+'55638d51': [(log, ('1.0 -> 2.5: Yixuan Bottle Blend Hash',)),        (update_hash, ('d89da8eb',))],
+'d0ff2c18': [(log, ('1.0 -> 2.5: Yixuan Bottle Position Hash',)),     (update_hash, ('8555098d',))],
+'f05da93a': [(log, ('1.0 -> 2.5: Yixuan Bottle Texcoord Hash',)),     (update_hash, ('ff4b112b',))],
+'d000beae': [(log, ('1.0 -> 2.5: Yixuan Bottle Draw Hash',)),         (update_hash, ('05466ddf',))],
+
 # IB Hashes
 'ac8e9ee3': [(log, ('2.5: Yixuan Hair IB Hash',)),      (add_ib_check_if_missing,)],
 '029c1f5a': [(log, ('2.5: Yixuan Body IB Hash',)),      (add_ib_check_if_missing,)],
@@ -26,6 +33,14 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '892858fd': [(log, ('2.5: Yixuan Hairpin IB Hash',)),   (add_ib_check_if_missing,)],
 '8c2fc05e': [(log, ('2.5: Yixuan Jacket IB Hash',)),    (add_ib_check_if_missing,)],
 '8b067f99': [(log, ('2.5: Yixuan Face IB Hash',)),      (add_ib_check_if_missing,)],
+
+# Bottle Vertex Buffer Hashes
+'d89da8eb': [(log, ('2.5: Yixuan Bottle Blend Hash',))],
+'8555098d': [(log, ('2.5: Yixuan Bottle Position Hash',))],
+'ff4b112b': [(log, ('2.5: Yixuan Bottle Texcoord Hash',))],
+
+# Bottle Draw Hash
+'05466ddf': [(log, ('2.5: Yixuan Bottle Draw Hash',))],
 
 # Shared Texture Hashes (used across multiple components)
 'ebac056e': [

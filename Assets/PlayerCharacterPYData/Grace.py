@@ -20,6 +20,8 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '89299f56': [(log, ('1.0: Grace Hair IB Hash',)), (add_ib_check_if_missing,)],
 '8b240678': [(log, ('1.2: Grace Body IB Hash',)), (add_ib_check_if_missing,)],
 '4d60568b': [(log, ('1.0: Grace Head IB Hash',)), (add_ib_check_if_missing,)],
+'50837a5c': [(log, ('1.1 -> 1.2: Grace Body Blend Hash',)),     (update_hash, ('3b80154c',))],
+'89d903ba': [(log, ('1.2 -> 1.3: Grace Hair Texcoord Hash',)),  (update_hash, ('d21f32ad',))],
 'd21f32ad': [
         (log, ('1.1 -> 1.2: Grace Hair Texcoord Hash',)),
         (update_hash, ('89d903ba',)),

@@ -35,6 +35,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     ],
 '2c317dda': [(log, ('1.0 -> 1.1: Nekomata Body Position Hash',)),  (update_hash, ('eaad1408',))],
 'b5a4c084': [(log, ('1.0 -> 1.1: Nekomata Body Texcoord Hash',)),  (update_hash, ('f589a51f',))],
+'d73bc96f': [(log, ('1.0 -> 1.1: Nekomata Body Blend Hash',)),  (update_hash, ('d27d0e6b',))],
 '6abb714e': [(log, ('1.0 -> 1.1: Nekomata Swords Position Hash',)), (update_hash, ('3c4015fd',))],
 '70f4875e': [(log, ('1.0 -> 1.1: Nekomata Swords Texcoord Hash',)), (update_hash, ('2a4f8c9e',))],
 '25f3ae9b': [

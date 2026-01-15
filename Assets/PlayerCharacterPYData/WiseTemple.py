@@ -18,6 +18,15 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     """
     return {
 # =============================================================================
+# Hash Updates (Old → New)
+# =============================================================================
+'6acc1eb8': [(log, ('2.5: WiseCrane Body IB Hash → WiseTemple Body IB Hash',)), (update_hash, ('1eca2097',))],
+'a83ada4e': [(log, ('2.5: WiseCrane Body Texcoord → WiseTemple Body Texcoord',)), (update_hash, ('b39870e1',))],
+'177ad7e8': [(log, ('2.5: WiseCrane Body Blend → WiseTemple Body Blend',)), (update_hash, ('8612559a',))],
+'ae59eabb': [(log, ('2.5: WiseCrane Body Position → WiseTemple Body Position',)), (update_hash, ('a388eb6b',))],
+'4fa228f9': [(log, ('2.5: WiseCrane Body Draw → WiseTemple Body Draw',)), (update_hash, ('ca02f614',))],
+
+# =============================================================================
 # WiseTemple IB Hashes
 # =============================================================================
 '01c42a1d': [(log, ('2.5: WiseTemple Neck IB Hash',)), (add_ib_check_if_missing,)],
@@ -25,6 +34,14 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '1fdaf388': [(log, ('2.5: WiseTemple Face IB Hash',)), (add_ib_check_if_missing,)],
 'd5ca0411': [(log, ('2.5: WiseTemple Hair IB Hash',)), (add_ib_check_if_missing,)],
 'e7f527ea': [(log, ('2.5: WiseTemple DiskPlayer IB Hash',)), (add_ib_check_if_missing,)],
+
+# =============================================================================
+# WiseTemple Body Buffer Hashes
+# =============================================================================
+'b39870e1': [(log, ('2.5: WiseTemple Body Texcoord Buffer Hash',))],
+'8612559a': [(log, ('2.5: WiseTemple Body Blend Buffer Hash',))],
+'a388eb6b': [(log, ('2.5: WiseTemple Body Position Buffer Hash',))],
+'ca02f614': [(log, ('2.5: WiseTemple Body Draw Buffer Hash',))],
 
 # =============================================================================
 # WiseTemple Face Textures

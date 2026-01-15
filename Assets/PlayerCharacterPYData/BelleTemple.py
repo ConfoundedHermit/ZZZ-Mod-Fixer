@@ -107,6 +107,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 # =============================================================================
 '01b0c8b6': [(log, ('2.5: Updating BelleTemple Body blend_vb to f3dedb50',)), (update_hash, ('f3dedb50',))],
 '862dc27a': [(log, ('2.5: Updating BelleTemple Body texcoord_vb to d761e076',)), (update_hash, ('d761e076',))],
+'0b3c5e7c': [(log, ('2.5: Updating BelleTemple Body position_vb to 8a4e97cd',)), (update_hash, ('8a4e97cd',))],
 '02c9dc4b': [(log, ('2.5: Updating BelleTemple Body draw_vb to 19e5f486',)), (update_hash, ('19e5f486',))],
 '860e1558': [(log, ('2.5: Updating BelleTemple Body IB to d509bdd4',)), (update_hash, ('d509bdd4',))],
 

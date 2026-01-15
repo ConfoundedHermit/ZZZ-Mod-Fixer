@@ -20,6 +20,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 'bea4a483': [(log, ('1.0: Belle Hair IB Hash',)), (add_ib_check_if_missing,)],
 '1817f3ca': [(log, ('1.0: Belle Body IB Hash',)), (add_ib_check_if_missing,)],
 '9a9780a7': [(log, ('1.0: Belle Head IB Hash',)), (add_ib_check_if_missing,)],
+'d7ca821f': [(log, ('1.0 -> 1.1: Belle Body Blend Hash',)), (update_hash, ('c92a17d8',))],
 'caf95576': [
         (log,                         ('1.0 -> 1.1: Belle Body Texcoord Hash',)),
         (update_hash,                 ('801edbf4',)),

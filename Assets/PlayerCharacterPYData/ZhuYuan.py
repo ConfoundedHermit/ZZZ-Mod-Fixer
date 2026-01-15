@@ -24,6 +24,7 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 'a63028ae': [(log, ('1.0: ZhuYuan HipAmmo IB Hash',)),      (add_ib_check_if_missing,)],
 'f1c241b7': [(log, ('1.0: ZhuYuan Head IB Hash',)),         (add_ib_check_if_missing,)],
 'a4aeb1d5': [(log, ('1.0 -> 1.1: ZhuYuan Body IB Hash',)),  (update_hash, ('6619364f',))],
+'5e942526': [(log, ('1.0 -> 1.1: ZhuYuan Body Blend Hash',)), (update_hash, ('01e0c8d9',))],
 'f3569f8d': [(log, ('1.0 -> 1.1: ZhuYuan Body Position Hash',)), (update_hash, ('f595d24d',))],
 '160872c0': [(log, ('1.0 -> 1.1: ZhuYuan Body Texcoord Hash',)), (update_hash, ('cb885260',))],
 'fdc045fc': [

@@ -24,6 +24,11 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '44d9123b': [(log, ('2.5: Yanagi Glasses IB Hash',)),    (add_ib_check_if_missing,)],
 '0817204c': [(log, ('2.5: Yanagi Face IB Hash',)),    (add_ib_check_if_missing,)],
 
+# === Hash Updates ===
+'fd363c76': [(log, ('2.5: Yanagi Body blend (old hash)',)), (update_hash, ('b558d482',))],
+'2e92fc77': [(log, ('2.5: Yanagi Glasses ib (old hash)',)), (update_hash, ('44d9123b',))],
+'b558d482': [(log, ('2.5: Yanagi Body blend',)),    (add_ib_check_if_missing,)],
+
 # === Face Textures ===
 'cfe7ab46': [
         (log,                           ('2.5: Yanagi FaceA Diffuse 1024p Hash',)),

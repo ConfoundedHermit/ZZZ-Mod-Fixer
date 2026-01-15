@@ -17,6 +17,9 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
     All command classes are passed as parameters to avoid circular imports.
     """
     return {
+# === Hash Updates ===
+'6ff0e4ad': [(log, ('2.5: 1 Dialyn Body blend',)), (update_hash, ('3d7e53cf',))],
+
 # === IB Hashes ===
 '68f00074': [(log, ('2.5: Dialyn Hair IB Hash',)), (add_ib_check_if_missing,)],
 'af39a873': [(log, ('2.5: Dialyn Body IB Hash',)), (add_ib_check_if_missing,)],
