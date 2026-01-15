@@ -57,6 +57,14 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 # =============================================================================
 # BelleTemple VB Hashes - Hair
 # =============================================================================
+'992d149f': [(log, ('2.5: BelleTemple Hair draw_vb Hash',)), (add_section_if_missing, ('aa9ffb85', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
+'71d2bf80': [(log, ('2.5: BelleTemple Hair position_vb Hash',)), (add_section_if_missing, ('aa9ffb85', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
+'39ac6700': [(log, ('2.5: BelleTemple Hair blend_vb Hash',)), (add_section_if_missing, ('aa9ffb85', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
+'a5e62ece': [(log, ('2.5: BelleTemple Hair texcoord_vb Hash',)), (add_section_if_missing, ('aa9ffb85', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
+
+# =============================================================================
+# BelleTemple VB Hashes - HairWAcc
+# =============================================================================
 '040e066c': [(log, ('2.5: BelleTemple HairWAcc draw_vb Hash',)), (add_section_if_missing, ('db72ceab', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
 '6824cbbe': [(log, ('2.5: BelleTemple HairWAcc position_vb Hash',)), (add_section_if_missing, ('db72ceab', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
 'd5b33c94': [(log, ('2.5: BelleTemple HairWAcc blend_vb Hash',)), (add_section_if_missing, ('db72ceab', 'BelleTemple.Hair.IB', 'match_priority = 0\n'))],
@@ -101,6 +109,14 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 '862dc27a': [(log, ('2.5: Updating BelleTemple Body texcoord_vb to d761e076',)), (update_hash, ('d761e076',))],
 '02c9dc4b': [(log, ('2.5: Updating BelleTemple Body draw_vb to 19e5f486',)), (update_hash, ('19e5f486',))],
 '860e1558': [(log, ('2.5: Updating BelleTemple Body IB to d509bdd4',)), (update_hash, ('d509bdd4',))],
+
+# =============================================================================
+# BelleTemple Neck Hash Updates (Old → New)
+# =============================================================================
+'20d3a340': [(log, ('2.5: Updating BelleTemple Neck IB to 62ed56cc',)), (update_hash, ('62ed56cc',))],
+'2f828e6a': [(log, ('2.5: Updating BelleTemple Neck draw_vb to 4c215c73',)), (update_hash, ('4c215c73',))],
+'cdd7fc8a': [(log, ('2.5: Updating BelleTemple Neck texcoord_vb to dd2b89aa',)), (update_hash, ('dd2b89aa',))],
+'db7add33': [(log, ('2.5: Updating BelleTemple Neck blend_vb to 3bd79a0b',)), (update_hash, ('3bd79a0b',))],
 
 # =============================================================================
 # BelleTemple Face Textures (shares Face IB and Head Diffuse with Belle)
