@@ -20,6 +20,37 @@ def get_hash_commands(log, update_hash, comment_sections, comment_commandlists,
 # === Hash Updates ===
 '6ff0e4ad': [(log, ('2.5: 1 Dialyn Body blend',)), (update_hash, ('3d7e53cf',))],
 
+# === VB Hashes ===
+# Hair VBs
+'00e453e9': [(log, ('2.5: Dialyn Hair draw VB Hash',)), (add_section_if_missing, ('68f00074', 'Dialyn.Hair.DrawVB', 'match_priority = 0\n'))],
+'a486f1bb': [(log, ('2.5: Dialyn Hair position VB Hash',)), (add_section_if_missing, ('68f00074', 'Dialyn.Hair.PositionVB', 'match_priority = 0\n'))],
+'339f41eb': [(log, ('2.5: Dialyn Hair blend VB Hash',)), (add_section_if_missing, ('68f00074', 'Dialyn.Hair.BlendVB', 'match_priority = 0\n'))],
+'46019c5e': [(log, ('2.5: Dialyn Hair texcoord VB Hash',)), (add_section_if_missing, ('68f00074', 'Dialyn.Hair.TexcoordVB', 'match_priority = 0\n'))],
+
+# Body VBs
+'2e77bd1d': [(log, ('2.5: Dialyn Body draw VB Hash',)), (add_section_if_missing, ('af39a873', 'Dialyn.Body.DrawVB', 'match_priority = 0\n'))],
+'ff36809b': [(log, ('2.5: Dialyn Body position VB Hash',)), (add_section_if_missing, ('af39a873', 'Dialyn.Body.PositionVB', 'match_priority = 0\n'))],
+'3d7e53cf': [(log, ('2.5: Dialyn Body blend VB Hash',)), (add_section_if_missing, ('af39a873', 'Dialyn.Body.BlendVB', 'match_priority = 0\n'))],
+'3f2079bc': [(log, ('2.5: Dialyn Body texcoord VB Hash',)), (add_section_if_missing, ('af39a873', 'Dialyn.Body.TexcoordVB', 'match_priority = 0\n'))],
+
+# PhoneCable VBs
+'38ce65ff': [(log, ('2.5: Dialyn PhoneCable draw VB Hash',)), (add_section_if_missing, ('cd519abe', 'Dialyn.PhoneCable.DrawVB', 'match_priority = 0\n'))],
+'d0470351': [(log, ('2.5: Dialyn PhoneCable position VB Hash',)), (add_section_if_missing, ('cd519abe', 'Dialyn.PhoneCable.PositionVB', 'match_priority = 0\n'))],
+'312b6e12': [(log, ('2.5: Dialyn PhoneCable blend VB Hash',)), (add_section_if_missing, ('cd519abe', 'Dialyn.PhoneCable.BlendVB', 'match_priority = 0\n'))],
+'2e6484db': [(log, ('2.5: Dialyn PhoneCable texcoord VB Hash',)), (add_section_if_missing, ('cd519abe', 'Dialyn.PhoneCable.TexcoordVB', 'match_priority = 0\n'))],
+
+# Face VBs
+'fe5fb676': [(log, ('2.5: Dialyn Face draw VB Hash',)), (add_section_if_missing, ('facb2461', 'Dialyn.Face.DrawVB', 'match_priority = 0\n'))],
+'c44d2531': [(log, ('2.5: Dialyn Face position VB Hash',)), (add_section_if_missing, ('facb2461', 'Dialyn.Face.PositionVB', 'match_priority = 0\n'))],
+'08923d3e': [(log, ('2.5: Dialyn Face blend VB Hash',)), (add_section_if_missing, ('facb2461', 'Dialyn.Face.BlendVB', 'match_priority = 0\n'))],
+'f6c5296e': [(log, ('2.5: Dialyn Face texcoord VB Hash',)), (add_section_if_missing, ('facb2461', 'Dialyn.Face.TexcoordVB', 'match_priority = 0\n'))],
+
+# Brows VBs
+'fecc9606': [(log, ('2.5: Dialyn Brows draw VB Hash',)), (add_section_if_missing, ('d860525e', 'Dialyn.Brows.DrawVB', 'match_priority = 0\n'))],
+'c4de0541': [(log, ('2.5: Dialyn Brows position VB Hash',)), (add_section_if_missing, ('d860525e', 'Dialyn.Brows.PositionVB', 'match_priority = 0\n'))],
+'7ec67741': [(log, ('2.5: Dialyn Brows blend VB Hash',)), (add_section_if_missing, ('d860525e', 'Dialyn.Brows.BlendVB', 'match_priority = 0\n'))],
+'d90368ed': [(log, ('2.5: Dialyn Brows texcoord VB Hash',)), (add_section_if_missing, ('d860525e', 'Dialyn.Brows.TexcoordVB', 'match_priority = 0\n'))],
+
 # === IB Hashes ===
 '68f00074': [(log, ('2.5: Dialyn Hair IB Hash',)), (add_ib_check_if_missing,)],
 'af39a873': [(log, ('2.5: Dialyn Body IB Hash',)), (add_ib_check_if_missing,)],
